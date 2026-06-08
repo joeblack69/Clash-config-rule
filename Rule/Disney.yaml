@@ -1,0 +1,30 @@
+# =====================================================================
+# 3. DISNEY+ & HULU 完美合并版规则集 (含流媒体 CDN 节点及所有关联域名)
+# =====================================================================
+payload:
+  # --- Disney+ 核心控制链与播放凭证 ---
+  DOMAIN-SUFFIX,disneyplus.com
+  DOMAIN-SUFFIX,disney-plus.net
+  DOMAIN-SUFFIX,disneystreaming.com
+
+  # --- 核心流媒体加速 CDN (BAMTECH 骨干网，漏掉会导致加载出封面但无法播放) ---
+  DOMAIN-SUFFIX,bamgrid.com
+  DOMAIN-SUFFIX,bam.nr-data.net
+  DOMAIN-SUFFIX,dssott.com
+  DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+
+  # --- Hulu (huiu) 核心域名 (现已无缝融合进入美区 Disney+ 资源库) ---
+  DOMAIN-SUFFIX,hulu.com
+  DOMAIN-SUFFIX,huluim.com
+  DOMAIN-SUFFIX,hulustream.com
+  DOMAIN-SUFFIX,happyvalley.cc
+
+  # --- 国际化及其他地区合规关联域名 (Star / ESPN / 20th Century) ---
+  DOMAIN-SUFFIX,disney.com
+  DOMAIN-SUFFIX,disney.io
+  DOMAIN-SUFFIX,disneymusic.com
+  DOMAIN-SUFFIX,starott.com
+  DOMAIN-SUFFIX,espn.com
+  DOMAIN-SUFFIX,espncdn.com
+  DOMAIN-KEYWORD,disney
+  DOMAIN-KEYWORD,hulu

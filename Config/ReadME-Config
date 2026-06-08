@@ -1,0 +1,3 @@
+个文件里都是配置文件，yaml格式的，适用于clash内核。
+subscription.yaml实测stash可用，而且非常干净。
+Clash-Fallback.yaml在Windows系统FlClash可用。

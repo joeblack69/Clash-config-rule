@@ -1,0 +1,40 @@
+payload:
+  # ==================== 🎬 Max (HBO) 核心与新域名 ====================
+  - DOMAIN-SUFFIX,max.com
+  - DOMAIN-SUFFIX,hbo.com
+  - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,discomax.com
+
+  # ==================== 📦 媒体流、CDN 与图片资源 ====================
+  - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,hbonow.com
+  - DOMAIN-SUFFIX,maxgo.com
+  - DOMAIN-SUFFIX,cinemax.com
+  - DOMAIN,wmff.warnermediacdn.com
+  - DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
+
+  # ==================== 🌏 HBO 亚洲区 / GO 历史遗留通道 ====================
+  - DOMAIN-SUFFIX,hboasia.com
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN-SUFFIX,hbogo.co.th
+  - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN-SUFFIX,hbogoasia.id
+  - DOMAIN-SUFFIX,hbogoasia.ph
+  - DOMAIN-SUFFIX,hbogoasia.sg
+  - DOMAIN-SUFFIX,hbogoasia.tw
+  - DOMAIN-SUFFIX,hboasialive.akamaized.net
+  - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net
+  - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia3-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia4-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia5-i.akamaihd.net
+
+  # ==================== 📊 移动端必备数据与应用分析 (防止无限转圈) ====================
+  - DOMAIN-SUFFIX,h264.io
+  - DOMAIN-SUFFIX,litix.io
+  - DOMAIN-SUFFIX,onetrust.io
+  - DOMAIN-SUFFIX,brightline.tv
+  - DOMAIN-SUFFIX,apptentive.com
+  

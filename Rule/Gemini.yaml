@@ -10,6 +10,9 @@ Payload:
 
   # ------ 你原本的 Gemini / Google AI 核心规则 ------
   - DOMAIN,ai.google.dev
+  - DOMAIN,play.google.com
+  - DOMAIN,mtalk.google.com
+  - DOMAIN,ogs.google.com
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
   - DOMAIN,makersuite.google.com
   - DOMAIN-SUFFIX,bard.google.com

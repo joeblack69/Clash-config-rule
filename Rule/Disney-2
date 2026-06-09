@@ -1,0 +1,32 @@
+# >>> [Disney+ 核心域名与分发]
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disneystreaming.com
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,starott.com
+DOMAIN-SUFFIX,starplus.com
+DOMAIN-KEYWORD,disneyplus
+
+# >>> [Disney 官方账号与鉴权]
+DOMAIN-SUFFIX,disney.com
+DOMAIN-SUFFIX,disney.asia
+DOMAIN-SUFFIX,disneyinternational.com
+DOMAIN-SUFFIX,go.com
+DOMAIN-SUFFIX,registerdisney.go.com
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+
+# >>> [特定 CDN 与第三方加速 (已剔除公共大域名)]
+DOMAIN-SUFFIX,disneyplus.com.edgekey.net
+DOMAIN-SUFFIX,disneyplus.com.edgesuite.net
+DOMAIN-SUFFIX,disney.edgesuite.net
+DOMAIN-SUFFIX,akamaized.net
+
+# >>> [数据统计与分析 (防止加载卡死)]
+DOMAIN-SUFFIX,conviva.com
+DOMAIN-SUFFIX,omtrdc.net
+DOMAIN-SUFFIX,demdex.net
+DOMAIN-SUFFIX,adobedc.net
+DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,nr-data.net
+DOMAIN-SUFFIX,newrelic.com

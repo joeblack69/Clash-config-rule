@@ -19,6 +19,11 @@ payload:
   DOMAIN-SUFFIX,disneyplus.com.edgekey.net
   DOMAIN-SUFFIX,disneyplus.com.edgesuite.net
 
+  DOMAIN-SUFFIX,disneyplus.com.edgekey.net
+  DOMAIN-SUFFIX,disneyplus.com.edgesuite.net
+  DOMAIN-SUFFIX,disney.edgesuite.net
+  DOMAIN-SUFFIX,akamaized.net
+
   #DOMAIN-SUFFIX,akamaihd.net
   #DOMAIN-SUFFIX,akamaihd-staging.net
   #DOMAIN-SUFFIX,akamai.net

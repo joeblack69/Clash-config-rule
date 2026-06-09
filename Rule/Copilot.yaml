@@ -3,21 +3,21 @@
 # =====================================================================
 payload:
   # --- Copilot 独立主站与重定向 ---
-  DOMAIN-SUFFIX,copilot.microsoft.com
-  DOMAIN-SUFFIX,windows.net
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,windows.net
 
   # --- 核心 AI 服务端与 Sydney 架构 (十分关键，漏掉会导致侧边栏无限加载) ---
-  DOMAIN,sydney.bing.com
-  DOMAIN,edgeservices.bing.com
-  DOMAIN,copilot-proxy.githubusercontent.com
+  - DOMAIN,sydney.bing.com
+  - DOMAIN,edgeservices.bing.com
+  - DOMAIN,copilot-proxy.githubusercontent.com
 
   # --- Bing API、搜索集成与身份认证 ---
-  DOMAIN-SUFFIX,bing.com
-  DOMAIN-SUFFIX,bingapis.com
-  DOMAIN-SUFFIX,microsoftapp.net
-  DOMAIN-SUFFIX,msn.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,microsoftapp.net
+  - DOMAIN-SUFFIX,msn.com
 
   # --- 开发者 Copilot (GitHub Copilot 插件及授权凭证) ---
-  DOMAIN,api.github.com
-  DOMAIN-SUFFIX,githubcopilot.com
-  DOMAIN-KEYWORD,copilot
+  - DOMAIN,api.github.com
+  - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-KEYWORD,copilot

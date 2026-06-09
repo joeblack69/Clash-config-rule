@@ -1,0 +1,52 @@
+payload :
+  # ==========================================
+  # 规则集名称：国内网盘 (直连专用)
+  # 适用场景：解决 Apple TV 默认代理导致网盘视频卡顿、报错、限速
+  # 匹配策略：DIRECT (直连)
+  # ==========================================
+
+  # >>>>> 百度网盘 (Baidu Netdisk) <<<<<
+  DOMAIN-SUFFIX,baidu.com
+  DOMAIN-SUFFIX,baidupcs.com
+  DOMAIN-SUFFIX,bdstatic.com
+  DOMAIN-SUFFIX,baiduyun.pstatic.net
+  DOMAIN-KEYWORD,baidupcs
+  DOMAIN-KEYWORD,pan.baidu
+
+  # >>>>> 夸克网盘 (Quark Pan) <<<<<
+  DOMAIN-SUFFIX,quark.cn
+  DOMAIN-SUFFIX,quark.taobao.com
+  DOMAIN-SUFFIX,pdsapi.quark.cn
+  DOMAIN-KEYWORD,quark
+
+  # >>>>> 阿里云盘 (AliYun Drive) <<<<<
+  DOMAIN-SUFFIX,alipan.com
+  DOMAIN-SUFFIX,aliyundrive.com
+  DOMAIN-SUFFIX,aliyundrive.net
+  DOMAIN-SUFFIX,alicloudccp.com
+  DOMAIN-KEYWORD,alipan
+  DOMAIN-KEYWORD,aliyundrive
+
+  # >>>>> 迅雷云盘 (Thunder) <<<<<
+  DOMAIN-SUFFIX,xunlei.com
+  DOMAIN-SUFFIX,thunderurl.com
+  DOMAIN-SUFFIX,slwte.com
+  DOMAIN-KEYWORD,xunlei
+
+  # >>>>> 115网盘 (115) <<<<<
+  DOMAIN-SUFFIX,115.com
+  DOMAIN-SUFFIX,anxia.com
+  DOMAIN-KEYWORD,115.com
+
+  # >>>>> 天翼云盘 (Chinanet Cloud) <<<<<
+  DOMAIN-SUFFIX,189.cn
+  DOMAIN-SUFFIX,ctyunxs.cn
+  DOMAIN-KEYWORD,189cloud
+
+  # >>>>> 腾讯微云 (Weiyun) <<<<<
+  DOMAIN-SUFFIX,weiyun.com
+  DOMAIN-KEYWORD,weiyun
+
+  # >>>>> 移动云盘 / 和彩云 (China Mobile) <<<<<
+  DOMAIN-SUFFIX,mcloud.139.com
+  DOMAIN-KEYWORD,mcloud

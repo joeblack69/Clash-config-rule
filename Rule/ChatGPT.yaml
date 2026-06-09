@@ -3,25 +3,25 @@
 # =====================================================================
 payload:
   # --- 核心主站与 API ---
-  DOMAIN-SUFFIX,openai.com
-  DOMAIN-SUFFIX,ai.com
-  DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,chatgpt.com
 
   # --- 静态资源与新版前端架构 ---
-  DOMAIN-SUFFIX,oaistatic.com
-  DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
 
   # --- 身份认证、风控、Cloudflare 验证码防拦截 ---
-  DOMAIN-SUFFIX,auth0.com
-  DOMAIN-SUFFIX,identrust.com
-  DOMAIN-SUFFIX,challenges.cloudflare.com
-  DOMAIN-SUFFIX,intercom.io
-  DOMAIN-SUFFIX,intercomcdn.com
-  DOMAIN-SUFFIX,featureflags.co
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,featureflags.co
 
   # --- 移动端（iOS/Android）及数据分析上报 ---
-  DOMAIN,ios.chat.openai.com
-  DOMAIN,android.chat.openai.com
-  DOMAIN-SUFFIX,statsigapi.net
-  DOMAIN-SUFFIX,segment.io
-  DOMAIN-KEYWORD,openai
+  - DOMAIN,ios.chat.openai.com
+  - DOMAIN,android.chat.openai.com
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-KEYWORD,openai

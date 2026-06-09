@@ -1,40 +1,54 @@
 payload:
-  # ==================== 🎬 Max (HBO) 核心与新域名 ====================
-  - DOMAIN-SUFFIX,max.com
-  - DOMAIN-SUFFIX,hbo.com
-  - DOMAIN-SUFFIX,hbomax.com
-  - DOMAIN-SUFFIX,discomax.com
+  DOMAIN-SUFFIX,hbomax.com
+  DOMAIN-SUFFIX,max.com
+  DOMAIN-SUFFIX,hbo.com
+  DOMAIN-SUFFIX,hboasia.com
+  DOMAIN-SUFFIX,hbogo.com
+  DOMAIN-SUFFIX,hbomaxcdn.com
+  DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
+  DOMAIN-SUFFIX,hbomax-images.warnermediacdn.com
+  DOMAIN-SUFFIX,hbomax-video.warnermediacdn.com
+  DOMAIN-SUFFIX,wmgo.com
+  DOMAIN-SUFFIX,wmgo-video.warnermediacdn.com
+  DOMAIN-SUFFIX,wmgo-images.warnermediacdn.com
+  DOMAIN-SUFFIX,api.hbo.com
+  DOMAIN-SUFFIX,api.max.com
 
-  # ==================== 📦 媒体流、CDN 与图片资源 ====================
-  - DOMAIN-SUFFIX,hbomaxcdn.com
-  - DOMAIN-SUFFIX,hbonow.com
-  - DOMAIN-SUFFIX,maxgo.com
-  - DOMAIN-SUFFIX,cinemax.com
-  - DOMAIN,wmff.warnermediacdn.com
-  - DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
+  DOMAIN-SUFFIX,auth.hbo.com
+  DOMAIN-SUFFIX,auth.max.com
+  DOMAIN-SUFFIX,edge.api.bamgrid.com
+  DOMAIN-SUFFIX,drm.hbo.com
+  DOMAIN-SUFFIX,drm.max.com
+  DOMAIN-SUFFIX,widevine.com
+  DOMAIN-SUFFIX,playready.microsoft.com
+  DOMAIN-SUFFIX,lic.drmtoday.com
+  DOMAIN-SUFFIX,drmtoday.com
 
-  # ==================== 🌏 HBO 亚洲区 / GO 历史遗留通道 ====================
-  - DOMAIN-SUFFIX,hboasia.com
-  - DOMAIN-SUFFIX,hbogo.com
-  - DOMAIN-SUFFIX,hbogoasia.com
-  - DOMAIN-SUFFIX,hbogo.co.th
-  - DOMAIN-SUFFIX,hbogoasia.hk
-  - DOMAIN-SUFFIX,hbogoasia.id
-  - DOMAIN-SUFFIX,hbogoasia.ph
-  - DOMAIN-SUFFIX,hbogoasia.sg
-  - DOMAIN-SUFFIX,hbogoasia.tw
-  - DOMAIN-SUFFIX,hboasialive.akamaized.net
-  - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net
-  - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
-  - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net
-  - DOMAIN-SUFFIX,hboasia3-i.akamaihd.net
-  - DOMAIN-SUFFIX,hboasia4-i.akamaihd.net
-  - DOMAIN-SUFFIX,hboasia5-i.akamaihd.net
+  DOMAIN-SUFFIX,akamaihd.net
+  DOMAIN-SUFFIX,akamai.net
+  DOMAIN-SUFFIX,edgekey.net
+  DOMAIN-SUFFIX,edgesuite.net
+  DOMAIN-SUFFIX,cloudfront.net
+  DOMAIN-SUFFIX,fastly.net
+  DOMAIN-SUFFIX,llnwd.net
+  DOMAIN-SUFFIX,level3.net
+  DOMAIN-SUFFIX,cdn.hbomax.com
+  DOMAIN-SUFFIX,cdn.max.com
 
-  # ==================== 📊 移动端必备数据与应用分析 (防止无限转圈) ====================
-  - DOMAIN-SUFFIX,h264.io
-  - DOMAIN-SUFFIX,litix.io
-  - DOMAIN-SUFFIX,onetrust.io
-  - DOMAIN-SUFFIX,brightline.tv
-  - DOMAIN-SUFFIX,apptentive.com
-  
+  DOMAIN-SUFFIX,conviva.com
+  DOMAIN-SUFFIX,conviva.com.edgekey.net
+  DOMAIN-SUFFIX,conviva.com.edgesuite.net
+  DOMAIN-SUFFIX,adobedc.net
+  DOMAIN-SUFFIX,demdex.net
+  DOMAIN-SUFFIX,sc.omtrdc.net
+  DOMAIN-SUFFIX,nr-data.net
+  DOMAIN-SUFFIX,newrelic.com
+
+  DOMAIN-SUFFIX,wmcdn.com
+  DOMAIN-SUFFIX,warnerbros.com
+  DOMAIN-SUFFIX,warnerbros.com.edgesuite.net
+  DOMAIN-SUFFIX,warnerbros.com.edgekey.net
+  DOMAIN-SUFFIX,wb.com
+  DOMAIN-SUFFIX,wbimages.net
+  DOMAIN-SUFFIX,cdn.turner.com
+  DOMAIN-SUFFIX,turner.com

@@ -2,29 +2,51 @@
 # 3. DISNEY+ & HULU 完美合并版规则集 (含流媒体 CDN 节点及所有关联域名)
 # =====================================================================
 payload:
-  # --- Disney+ 核心控制链与播放凭证 ---
   DOMAIN-SUFFIX,disneyplus.com
   DOMAIN-SUFFIX,disney-plus.net
-  DOMAIN-SUFFIX,disneystreaming.com
-
-  # --- 核心流媒体加速 CDN (BAMTECH 骨干网，漏掉会导致加载出封面但无法播放) ---
-  DOMAIN-SUFFIX,bamgrid.com
-  DOMAIN-SUFFIX,bam.nr-data.net
   DOMAIN-SUFFIX,dssott.com
-  DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+  DOMAIN-SUFFIX,bamgrid.com
 
-  # --- Hulu (huiu) 核心域名 (现已无缝融合进入美区 Disney+ 资源库) ---
-  DOMAIN-SUFFIX,hulu.com
-  DOMAIN-SUFFIX,huluim.com
-  DOMAIN-SUFFIX,hulustream.com
-  DOMAIN-SUFFIX,happyvalley.cc
+  DOMAIN,disney.api.edge.bamgrid.com
+  DOMAIN,cdn.registerdisney.go.com
+  DOMAIN-SUFFIX,go.com
+  DOMAIN-SUFFIX,registerdisney.go.com
 
-  # --- 国际化及其他地区合规关联域名 (Star / ESPN / 20th Century) ---
+  DOMAIN-SUFFIX,edge.bamgrid.com
+  DOMAIN-SUFFIX,api.bamgrid.com
+  DOMAIN-SUFFIX,disney.api.edge.bamgrid.com
+  DOMAIN-SUFFIX,disney.edgesuite.net
+  DOMAIN-SUFFIX,disneyplus.com.edgekey.net
+  DOMAIN-SUFFIX,disneyplus.com.edgesuite.net
+
+  DOMAIN-SUFFIX,akamaihd.net
+  DOMAIN-SUFFIX,akamaihd-staging.net
+  DOMAIN-SUFFIX,akamai.net
+  DOMAIN-SUFFIX,edgekey.net
+  DOMAIN-SUFFIX,edgesuite.net
+  DOMAIN-SUFFIX,cloudfront.net
+  DOMAIN-SUFFIX,fastly.net
+
+  DOMAIN-SUFFIX,sc.omtrdc.net
+  DOMAIN-SUFFIX,demdex.net
+  DOMAIN-SUFFIX,adobedc.net
+  DOMAIN-SUFFIX,adobe.com
+  DOMAIN-SUFFIX,nr-data.net
+  DOMAIN-SUFFIX,newrelic.com
+  DOMAIN,disneyplus.com.ssl.sc.omtrdc.net
+
+  DOMAIN-SUFFIX,disneyinternational.com
+  DOMAIN-SUFFIX,disney.asia
   DOMAIN-SUFFIX,disney.com
-  DOMAIN-SUFFIX,disney.io
-  DOMAIN-SUFFIX,disneymusic.com
-  DOMAIN-SUFFIX,starott.com
-  DOMAIN-SUFFIX,espn.com
-  DOMAIN-SUFFIX,espncdn.com
-  DOMAIN-KEYWORD,disney
-  DOMAIN-KEYWORD,hulu
+  DOMAIN-SUFFIX,disneystreaming.com
+  DOMAIN-SUFFIX,disneyplus.bn5x.net
+  DOMAIN-SUFFIX,cdn.disneyplus.com
+
+  DOMAIN-SUFFIX,conviva.com
+  DOMAIN-SUFFIX,conviva.com.edgekey.net
+  DOMAIN-SUFFIX,conviva.com.edgesuite.net
+  DOMAIN-SUFFIX,akamaized.net
+
+
+
+  

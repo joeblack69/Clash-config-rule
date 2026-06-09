@@ -19,13 +19,13 @@ payload:
   DOMAIN-SUFFIX,disneyplus.com.edgekey.net
   DOMAIN-SUFFIX,disneyplus.com.edgesuite.net
 
-  DOMAIN-SUFFIX,akamaihd.net
-  DOMAIN-SUFFIX,akamaihd-staging.net
-  DOMAIN-SUFFIX,akamai.net
-  DOMAIN-SUFFIX,edgekey.net
-  DOMAIN-SUFFIX,edgesuite.net
-  DOMAIN-SUFFIX,cloudfront.net
-  DOMAIN-SUFFIX,fastly.net
+  #DOMAIN-SUFFIX,akamaihd.net
+  #DOMAIN-SUFFIX,akamaihd-staging.net
+  #DOMAIN-SUFFIX,akamai.net
+  #DOMAIN-SUFFIX,edgekey.net
+  #DOMAIN-SUFFIX,edgesuite.net
+  #DOMAIN-SUFFIX,cloudfront.net
+  #DOMAIN-SUFFIX,fastly.net
 
   DOMAIN-SUFFIX,sc.omtrdc.net
   DOMAIN-SUFFIX,demdex.net
@@ -46,6 +46,16 @@ payload:
   DOMAIN-SUFFIX,conviva.com.edgekey.net
   DOMAIN-SUFFIX,conviva.com.edgesuite.net
   DOMAIN-SUFFIX,akamaized.net
+
+  DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+  DOMAIN-SUFFIX,starott.com
+  DOMAIN-SUFFIX,starplus.com
+  DOMAIN-KEYWORD,disneyplus
+
+  DOMAIN-SUFFIX,hls.itunes.apple.com
+  DOMAIN-SUFFIX,itunes.apple.com
+  DOMAIN,gsa.apple.com
+
 
 
 

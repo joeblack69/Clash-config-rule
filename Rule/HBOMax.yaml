@@ -1,54 +1,54 @@
 payload:
-  DOMAIN-SUFFIX,hbomax.com
-  DOMAIN-SUFFIX,max.com
-  DOMAIN-SUFFIX,hbo.com
-  DOMAIN-SUFFIX,hboasia.com
-  DOMAIN-SUFFIX,hbogo.com
-  DOMAIN-SUFFIX,hbomaxcdn.com
-  DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
-  DOMAIN-SUFFIX,hbomax-images.warnermediacdn.com
-  DOMAIN-SUFFIX,hbomax-video.warnermediacdn.com
-  DOMAIN-SUFFIX,wmgo.com
-  DOMAIN-SUFFIX,wmgo-video.warnermediacdn.com
-  DOMAIN-SUFFIX,wmgo-images.warnermediacdn.com
-  DOMAIN-SUFFIX,api.hbo.com
-  DOMAIN-SUFFIX,api.max.com
+  - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,max.com
+  - DOMAIN-SUFFIX,hbo.com
+  - DOMAIN-SUFFIX,hboasia.com
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
+  - DOMAIN-SUFFIX,hbomax-images.warnermediacdn.com
+  - DOMAIN-SUFFIX,hbomax-video.warnermediacdn.com
+  - DOMAIN-SUFFIX,wmgo.com
+  - DOMAIN-SUFFIX,wmgo-video.warnermediacdn.com
+  - DOMAIN-SUFFIX,wmgo-images.warnermediacdn.com
+  - DOMAIN-SUFFIX,api.hbo.com
+  - DOMAIN-SUFFIX,api.max.com
 
-  DOMAIN-SUFFIX,auth.hbo.com
-  DOMAIN-SUFFIX,auth.max.com
-  DOMAIN-SUFFIX,edge.api.bamgrid.com
-  DOMAIN-SUFFIX,drm.hbo.com
-  DOMAIN-SUFFIX,drm.max.com
-  DOMAIN-SUFFIX,widevine.com
-  DOMAIN-SUFFIX,playready.microsoft.com
-  DOMAIN-SUFFIX,lic.drmtoday.com
-  DOMAIN-SUFFIX,drmtoday.com
+  - DOMAIN-SUFFIX,auth.hbo.com
+  - DOMAIN-SUFFIX,auth.max.com
+  - DOMAIN-SUFFIX,edge.api.bamgrid.com
+  - DOMAIN-SUFFIX,drm.hbo.com
+  - DOMAIN-SUFFIX,drm.max.com
+  - DOMAIN-SUFFIX,widevine.com
+  - DOMAIN-SUFFIX,playready.microsoft.com
+  - DOMAIN-SUFFIX,lic.drmtoday.com
+  - DOMAIN-SUFFIX,drmtoday.com
 
-  DOMAIN-SUFFIX,akamaihd.net
-  DOMAIN-SUFFIX,akamai.net
-  DOMAIN-SUFFIX,edgekey.net
-  DOMAIN-SUFFIX,edgesuite.net
-  DOMAIN-SUFFIX,cloudfront.net
-  DOMAIN-SUFFIX,fastly.net
-  DOMAIN-SUFFIX,llnwd.net
-  DOMAIN-SUFFIX,level3.net
-  DOMAIN-SUFFIX,cdn.hbomax.com
-  DOMAIN-SUFFIX,cdn.max.com
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,akamai.net
+  - DOMAIN-SUFFIX,edgekey.net
+  - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,fastly.net
+  - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN-SUFFIX,level3.net
+  - DOMAIN-SUFFIX,cdn.hbomax.com
+  - DOMAIN-SUFFIX,cdn.max.com
 
-  DOMAIN-SUFFIX,conviva.com
-  DOMAIN-SUFFIX,conviva.com.edgekey.net
-  DOMAIN-SUFFIX,conviva.com.edgesuite.net
-  DOMAIN-SUFFIX,adobedc.net
-  DOMAIN-SUFFIX,demdex.net
-  DOMAIN-SUFFIX,sc.omtrdc.net
-  DOMAIN-SUFFIX,nr-data.net
-  DOMAIN-SUFFIX,newrelic.com
+  - DOMAIN-SUFFIX,conviva.com
+  - DOMAIN-SUFFIX,conviva.com.edgekey.net
+  - DOMAIN-SUFFIX,conviva.com.edgesuite.net
+  - DOMAIN-SUFFIX,adobedc.net
+  - DOMAIN-SUFFIX,demdex.net
+  - DOMAIN-SUFFIX,sc.omtrdc.net
+  - DOMAIN-SUFFIX,nr-data.net
+  - DOMAIN-SUFFIX,newrelic.com
 
-  DOMAIN-SUFFIX,wmcdn.com
-  DOMAIN-SUFFIX,warnerbros.com
-  DOMAIN-SUFFIX,warnerbros.com.edgesuite.net
-  DOMAIN-SUFFIX,warnerbros.com.edgekey.net
-  DOMAIN-SUFFIX,wb.com
-  DOMAIN-SUFFIX,wbimages.net
-  DOMAIN-SUFFIX,cdn.turner.com
-  DOMAIN-SUFFIX,turner.com
+  - DOMAIN-SUFFIX,wmcdn.com
+  - DOMAIN-SUFFIX,warnerbros.com
+  - DOMAIN-SUFFIX,warnerbros.com.edgesuite.net
+  - DOMAIN-SUFFIX,warnerbros.com.edgekey.net
+  - DOMAIN-SUFFIX,wb.com
+  - DOMAIN-SUFFIX,wbimages.net
+  - DOMAIN-SUFFIX,cdn.turner.com
+  - DOMAIN-SUFFIX,turner.com

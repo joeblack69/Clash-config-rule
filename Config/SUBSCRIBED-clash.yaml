@@ -3,7 +3,7 @@ proxy-providers:
   AirPort-1:
     type: http
     interval: 86400
-    url: https://clash0811-main.rss-node.com/sub?target=clash&interval=129600&filename=Hitun&url=https%3A%2F%2Frss-node.com%2Flink%2FO3Nv53oivnWksQdV%3Fmu%3D1
+    url: 
 mode: rule
 dns:
   default-nameserver:

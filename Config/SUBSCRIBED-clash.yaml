@@ -322,6 +322,7 @@ proxy-groups:
     proxies:
       - DIRECT
 rules:
+  - GEOIP,LAN,直连
   - RULE-SET,HBOMax,HBOMax
   - RULE-SET,Gemini,Gemini
   - RULE-SET,OpenAI,OpenAI
@@ -343,7 +344,7 @@ rules:
   - RULE-SET,apple-cn,Apple
   - RULE-SET,microsoft_cn,国内网站
   - RULE-SET,microsoft,Microsoft
-  - GEOIP,LAN,直连
+  
   - GEOIP,CN,国内网站
   - MATCH,其他外网
 rule-providers:

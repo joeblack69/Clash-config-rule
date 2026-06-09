@@ -1,11 +1,58 @@
 payload :
-  # ==========================================
-  # 规则集名称：国内网盘 (直连专用)
-  # 适用场景：解决 Apple TV 默认代理导致网盘视频卡顿、报错、限速
-  # 匹配策略：DIRECT (直连)
-  # ==========================================
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,pan.baidu.com
+  - DOMAIN-KEYWORD,baidupan
+  - DOMAIN-KEYWORD,baiduyun
 
-  # >>>>> 百度网盘 (Baidu Netdisk) <<<<<
+  - DOMAIN-SUFFIX,quark.cn
+  - DOMAIN-SUFFIX,quarkapp.com
+  - DOMAIN-SUFFIX,quark.sm.cn
+  - DOMAIN-KEYWORD,quark
+
+  - DOMAIN-SUFFIX,aliyundrive.com
+  - DOMAIN-SUFFIX,alipan.com
+  - DOMAIN-KEYWORD,aliyundrive
+  - DOMAIN-KEYWORD,alipan
+
+  - DOMAIN-SUFFIX,lanzou.com
+  - DOMAIN-SUFFIX,lanzoux.com
+  - DOMAIN-SUFFIX,lanzouy.com
+  - DOMAIN-KEYWORD,lanzou
+
+  - DOMAIN-SUFFIX,115.com
+  - DOMAIN-KEYWORD,115
+
+  - DOMAIN-SUFFIX,weiyun.com
+  - DOMAIN-KEYWORD,weiyun
+
+  - DOMAIN-SUFFIX,cloud.189.cn
+  - DOMAIN-KEYWORD,189cloud
+
+  - DOMAIN-SUFFIX,xunlei.com
+  - DOMAIN-SUFFIX,xunlei.cn
+  - DOMAIN-KEYWORD,xunlei
+
+  - DOMAIN-SUFFIX,teambition.com
+  - DOMAIN-SUFFIX,aliyun.com
+  - DOMAIN-KEYWORD,teambition
+
+  - DOMAIN-SUFFIX,ctfile.com
+  - DOMAIN-SUFFIX,ctfile.net
+  - DOMAIN-KEYWORD,ctfile
+
+  - DOMAIN-SUFFIX,123pan.com
+  - DOMAIN-KEYWORD,123pan
+
+  - DOMAIN-SUFFIX,feijipan.com
+  - DOMAIN-KEYWORD,feijipan
+
+  - DOMAIN-SUFFIX,jianguoyun.com
+  - DOMAIN-KEYWORD,jianguoyun
+
+  - DOMAIN-SUFFIX,media.weiyun.com
+  - DOMAIN-SUFFIX,share.weiyun.com
+
+  
   DOMAIN-SUFFIX,baidu.com
   DOMAIN-SUFFIX,baidupcs.com
   DOMAIN-SUFFIX,bdstatic.com
@@ -13,13 +60,13 @@ payload :
   DOMAIN-KEYWORD,baidupcs
   DOMAIN-KEYWORD,pan.baidu
 
-  # >>>>> 夸克网盘 (Quark Pan) <<<<<
+  
   DOMAIN-SUFFIX,quark.cn
   DOMAIN-SUFFIX,quark.taobao.com
   DOMAIN-SUFFIX,pdsapi.quark.cn
   DOMAIN-KEYWORD,quark
 
-  # >>>>> 阿里云盘 (AliYun Drive) <<<<<
+  
   DOMAIN-SUFFIX,alipan.com
   DOMAIN-SUFFIX,aliyundrive.com
   DOMAIN-SUFFIX,aliyundrive.net
@@ -27,26 +74,26 @@ payload :
   DOMAIN-KEYWORD,alipan
   DOMAIN-KEYWORD,aliyundrive
 
-  # >>>>> 迅雷云盘 (Thunder) <<<<<
+  
   DOMAIN-SUFFIX,xunlei.com
   DOMAIN-SUFFIX,thunderurl.com
   DOMAIN-SUFFIX,slwte.com
   DOMAIN-KEYWORD,xunlei
 
-  # >>>>> 115网盘 (115) <<<<<
+  
   DOMAIN-SUFFIX,115.com
   DOMAIN-SUFFIX,anxia.com
   DOMAIN-KEYWORD,115.com
 
-  # >>>>> 天翼云盘 (Chinanet Cloud) <<<<<
+  
   DOMAIN-SUFFIX,189.cn
   DOMAIN-SUFFIX,ctyunxs.cn
   DOMAIN-KEYWORD,189cloud
 
-  # >>>>> 腾讯微云 (Weiyun) <<<<<
+  
   DOMAIN-SUFFIX,weiyun.com
   DOMAIN-KEYWORD,weiyun
 
-  # >>>>> 移动云盘 / 和彩云 (China Mobile) <<<<<
+  
   DOMAIN-SUFFIX,mcloud.139.com
   DOMAIN-KEYWORD,mcloud

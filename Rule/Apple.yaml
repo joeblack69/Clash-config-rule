@@ -1,0 +1,66 @@
+payload:
+  # ===== Apple 主域名 =====
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,apple-cloudkit.com
+  - DOMAIN-SUFFIX,apple-mapkit.com
+  - DOMAIN-SUFFIX,apple-dns.net
+  - DOMAIN-SUFFIX,apple.news
+
+  # ===== iCloud =====
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,icloud-content.com
+  - DOMAIN-SUFFIX,icloud.com.cn
+  - DOMAIN-SUFFIX,icloud.apple.com
+  - DOMAIN-SUFFIX,icloud-services.com
+
+  # ===== Apple ID / 认证 / 激活 =====
+  - DOMAIN,aidc.apple.com
+  - DOMAIN-SUFFIX,appleid.apple.com
+  - DOMAIN-SUFFIX,appleid.cdn-apple.com
+  - DOMAIN-SUFFIX,appleid-ssl.ls.apple.com
+  - DOMAIN-SUFFIX,activation.apple.com
+  - DOMAIN-SUFFIX,deviceenrollment.apple.com
+
+  # ===== Find My / 定位 =====
+  - DOMAIN-SUFFIX,fmip.icloud.com
+  - DOMAIN-SUFFIX,fmd.icloud.com
+  - DOMAIN-SUFFIX,fmipmobile.icloud.com
+
+  # ===== Apple Push =====
+  - DOMAIN-SUFFIX,push.apple.com
+  - DOMAIN-SUFFIX,push-apple.com.akadns.net
+
+  # ===== Apple 证书验证（必须直连）=====
+  - DOMAIN-SUFFIX,ocsp.apple.com
+  - DOMAIN-SUFFIX,ocsp2.apple.com
+  - DOMAIN-SUFFIX,crl.apple.com
+  - DOMAIN-SUFFIX,certs.apple.com
+
+  # ===== Apple 软件更新 =====
+  - DOMAIN-SUFFIX,swcdn.apple.com
+  - DOMAIN-SUFFIX,swdownload.apple.com
+  - DOMAIN-SUFFIX,updates.cdn-apple.com
+
+  # ===== Apple 地图 =====
+  - DOMAIN-SUFFIX,mapkit.apple.com
+  - DOMAIN-SUFFIX,maps.apple.com
+
+  # ===== Apple TV / App Store / 内容分发 =====
+  - DOMAIN-SUFFIX,apps.apple.com
+  - DOMAIN-SUFFIX,itunes.apple.com
+  - DOMAIN-SUFFIX,appstore.com
+  - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,ls.apple.com
+
+  # ===== Apple CDN / Akamai =====
+  - DOMAIN-SUFFIX,akadns.net
+  - DOMAIN-SUFFIX,edgekey.net
+  - DOMAIN-SUFFIX,edgesuite.net
+
+  # ===== Apple 兜底关键字（非常重要）=====
+  - DOMAIN-KEYWORD,apple
+  - DOMAIN-KEYWORD,icloud
+  - DOMAIN-KEYWORD,findmy
+  - DOMAIN-KEYWORD,imessage
+  - DOMAIN-KEYWORD,macos
+  - DOMAIN-KEYWORD,ios
